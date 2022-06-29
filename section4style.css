@@ -1,0 +1,64 @@
+*{ box-sizing: border-box;
+  
+
+}
+    body,html{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white; 
+    }
+   
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.marpara{
+    width: 40%;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+.marpara h1{
+    font-size:2.3rem ;
+    margin-bottom: 5px;
+}
+.marpara p{
+    margin-top: 0px;
+    font-size: 1.1rem;
+    padding-right: 30px;
+    color: rgba(255, 255, 255, 0.693);
+}
+.btnmartin{
+    background-color: yellow;
+    color: black;
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid yellow;
+
+}
+.btnmartin:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+.martins{
+    background-color: rgba(128, 128, 128, 0.414);
+}
+.matf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.matpt{
+    display: flex;
+    
+}
+.matpt svg{
+    margin-left: 10px;
+}
+.matf p{
+    color: rgba(255, 255, 255, 0.693);
+}
+
